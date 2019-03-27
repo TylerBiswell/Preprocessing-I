@@ -188,3 +188,30 @@ header nav a {
   font-size: 2rem;
   border-radius: 10px;
 }
+.about {
+  display: flex;
+}
+.about .objective {
+  margin: 20px 2.5%;
+  width: 45%;
+}
+.about .objective h1 {
+  margin-left: 30px;
+  font-size: 4rem;
+}
+.about .objective p {
+  font-size: 1.8rem;
+  padding: 20px 0;
+}
+.about .skills {
+  margin: 20px 2.5%;
+  width: 45%;
+}
+.about .skills h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.about .skills li {
+  list-style-type: disc;
+  font-size: 1.8rem;
+}
