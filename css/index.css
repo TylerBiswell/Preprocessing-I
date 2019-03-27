@@ -142,7 +142,6 @@ html {
   margin: 0 auto;
 }
 header {
-  border-bottom: 1px solid black;
   margin: 20px 0;
   padding: 20px 0;
   display: flex;
@@ -153,4 +152,27 @@ header nav a {
   color: black;
   font-size: 1.8rem;
   margin-left: 20px;
+}
+.main-info {
+  background: lightgray;
+  margin: 15px 0;
+  padding: 30px 15px;
+}
+.main-info .name h1 {
+  font-size: 4rem;
+}
+.main-info .name h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.main-info .summary p {
+  font-size: 1.8rem;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-top: 1px solid skyblue;
+}
+img {
+  max-width: 100%;
+  width: 50%;
+  height: auto;
 }
