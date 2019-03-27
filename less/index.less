@@ -63,7 +63,7 @@ html{
 // Variables
 
 .container {
-	max-width: 600px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -79,6 +79,7 @@ header {
 		text-decoration: none;
 		color: black;
 		font-size: 1.8rem;
+		font-weight: bold;
 		margin-left: 20px;
 		} //a
 	} //nav
@@ -88,6 +89,12 @@ header {
 	background: lightgray;
 	margin: 15px 0;
 	padding: 30px 15px;
+	img {
+		padding: 10px;
+		max-width:100%;
+		width: 35%;
+		height:auto;
+	}
 	.name {
 		h1 {
 			font-size: 4rem;
@@ -105,12 +112,17 @@ header {
 			margin: 20px 0;
 			border-top: 1px solid skyblue;
 		}
+		button {
+			display: block;
+  			background-color: red;
+			margin: 20px 10px 20px;
+			cursor: pointer;
+			width: 200px;
+			height: 45px;
+			font-size: 2rem;
+			border-radius: 10px;
+		}
 	}
 	
 }
 
-img {
-	max-width:100%;
-	width: 50%;
-    height:auto;
-}
